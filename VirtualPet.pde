@@ -1,8 +1,14 @@
-
-void setup(){
-  //some of your code here
-}
-void draw(){
-  //more of your code here
-}
-
+size(400,400);
+noStroke();
+fill(0,90,125);
+triangle(90, 170, 90, 200, 150, 200);
+triangle(90, 220, 90, 200, 150, 200);
+triangle(175, 240, 175, 220, 210, 220);
+triangle(225, 195, 175, 175, 175, 150);
+ellipse(200,200,175,50);
+fill(0,0,0);
+ellipse(250,190,10,10);
+ellipse(270,190,10,10);
+noFill();
+stroke(0,0,0);
+arc(250,160,100,100,1,2);
